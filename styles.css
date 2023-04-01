@@ -21,10 +21,6 @@ body{
     margin: .5rem;
 }
 
-.navbar-links{
-    height: 100%;
-}
-
 .navbar-links ul{
     display: flex;
     margin: 0;
@@ -36,7 +32,7 @@ body{
 }
 
 .navbar-links li a{
-    display: block;
+    display: block; /*?*/
     text-decoration: none;
     color:white;
     padding: 1rem;
@@ -84,7 +80,7 @@ body{
         flex-direction: column;
     }
 
-    .navbar-links ul li{
+    .navbar-links li{
         text-align: center;
     }
     
